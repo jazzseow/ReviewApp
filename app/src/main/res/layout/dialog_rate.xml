@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:text="@string/rate"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/rate_text1"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:text="Score"/>
+        <RatingBar
+            android:id="@+id/rating_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/rate_text1"
+            android:numStars="5"
+            android:stepSize="1.0"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/rate_text2"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:text="Likes"/>
+        <ImageView
+            android:id="@+id/rating_likes"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/rate_text2"
+            android:background="@drawable/like_selector"/>
+        <ImageView
+            android:id="@+id/rating_dislikes"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/rating_likes"
+            android:background="@drawable/dislike_selector"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/rate_text3"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:text="Votes"/>
+        <ImageView
+            android:id="@+id/rating_vote"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/rate_text3"
+            android:background="@drawable/vote_selector"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/rate_dialog_done"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bordered_box"
+        android:text="@string/done"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

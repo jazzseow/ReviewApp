@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_4d1fef62b7d330bffea086414855d198d133f7d2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_1f6bcfdf8e86a9330d4c133cf0bcc437e63e2e35\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_b85d583d90c149c7b5aae70d767050572b5074df\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_4c8686d548f9515d0ea071e18e3483116a4fcc5e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="59bcaab3990a93453358b4633e7989b6c015b153">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_480809d7c9ca249fbfca5edebc4b69ba4858540b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_884c66e384e50695860767e001043b8f7baf3531\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_95f786b7834a120ad4f14da4eec3ac33a994f022\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_eff24eea88b5ea17c051e254507968648523b37d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="dac2c2f99caf48376463428f1557d5a8f82fd5a7">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_238a357d544bc2de125a7b30546d275ff71d4223\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\jesmond\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_4ce0ebc4e782c9dd3f08da684a7611c997b46ebe\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\jesmond\Downloads\ReviewApp-master\ReviewApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_48b3468f0ef82410e26e21c89e59d4a2209090d1\classes.dex" />
+    </item>
+
+</items>

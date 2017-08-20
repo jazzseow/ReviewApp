@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:parentActivityName="com.example.review.MainActivity"
+    android:fillViewport="true"
+    android:background="#ffffff"
+    android:windowSoftInputMode="adjustPan"
+    android:padding="16dp"
+    tools:context="com.example.review.NewReview">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!--This should probably actually use: android:layout_below="@+id/imageView" -->
+        <!--It's like this for now so I can work on the actionBar -->
+        <!--         android:layout_below="@id/newReviewToolbar" -->
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/new_review_title"
+            android:layout_marginLeft="@dimen/new_review_title_indent"
+            android:layout_marginStart="@dimen/new_review_title_indent"
+            android:textColor="#d26464"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/titleTextView"
+            android:padding="5dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="@string/new_title_hint" />
+
+        <TextView
+            android:id="@+id/categoryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editTitleText"
+            android:text="@string/new_review_category"
+            android:layout_marginLeft="@dimen/new_review_title_indent"
+            android:layout_marginStart="@dimen/new_review_title_indent"
+            android:textColor="#d26464"
+            android:textSize="@dimen/new_review_titles_size" />
+
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/categoryTextView"
+            android:layout_margin="7dp"
+            android:entries="@array/productTypes"
+            android:prompt="@string/productCategory"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edit_text_border" />
+
+        <TextView
+            android:id="@+id/ratingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/categorySpinner"
+            android:text="@string/new_review_rating"
+            android:layout_marginLeft="@dimen/new_review_title_indent"
+            android:layout_marginStart="@dimen/new_review_title_indent"
+            android:textColor="#d26464"
+            android:textSize="20sp"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingTextView"
+            android:layout_marginTop="17dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:id="@+id/SliderTable">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/categoryOneTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_review_rating_category_one"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#d26464" />
+
+                <SeekBar
+                    android:id="@+id/categoryOneSeekBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="1"
+                    android:indeterminate="false" />
+
+                <TextView
+                    android:id="@+id/SeekBarOneAmountTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_review_base_rating"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#d26464"
+                    android:layout_column="4" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/categoryTwoTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_review_rating_category_two"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#d26464" />
+
+                <SeekBar
+                    android:id="@+id/categoryTwoSeekBar"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="1" />
+
+                <TextView
+                    android:id="@+id/SeekBarTwoAmountTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_review_base_rating"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#d26464"
+                    android:layout_column="4" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/categoryThreeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_review_rating_category_three"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#d26464" />
+
+                <SeekBar
+                    android:id="@+id/categoryThreeSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="false"
+                    android:progress="1"
+                    android:max="100"/>
+
+                <TextView
+                    android:id="@+id/SeekBarThreeAmountTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_review_base_rating"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#d26464"
+                    android:layout_column="4" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/reviewTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_review_review_section_heading"
+            android:textColor="#d26464"
+            android:textSize="20sp"
+            android:layout_below="@+id/SliderTable"
+            android:layout_alignLeft="@+id/ratingTextView"
+            android:layout_alignStart="@+id/ratingTextView" />
+        <!-- android:hint="@string/new_review_hint" -->
+        <EditText
+            android:id="@+id/reviewEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/reviewTextView"
+            android:padding="7dp"
+            android:gravity="top|left"
+            android:background="@drawable/edit_text_border"
+            android:inputType="textMultiLine|textAutoCorrect"
+            android:scrollHorizontally="false"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp" />
+
+        <TextView
+            android:id="@+id/add_pic_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#d26464"
+            android:textSize="20sp"
+            android:text="Add pictures"
+            android:layout_marginTop="7dp"
+            android:layout_alignLeft="@+id/reviewTextView"
+            android:layout_alignStart="@+id/reviewTextView"
+            android:layout_below="@id/reviewEditText"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/add_pic_header"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp">
+
+            <ImageView
+                android:id="@+id/product1ImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/productimage1"
+                />
+
+            <ImageView
+                android:id="@+id/product2ImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/productimage1"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+
+
+        <!--<Button
+            android:id="@+id/addProductImage_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Product Image"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/product1ImageView"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"/> -->
+        <!--android:scrollHorizontally="false"-->
+
+    </RelativeLayout>
+</ScrollView>

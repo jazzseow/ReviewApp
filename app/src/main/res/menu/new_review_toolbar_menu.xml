@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cancel_button"
+        android:title="@string/cancel_new_review"
+        android:icon="@drawable/ic_cancel_review"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/publish_button"
+        android:title="@string/publish_new_review"
+        android:icon="@drawable/ic_accept_review"
+        app:showAsAction="always"/>
+</menu>

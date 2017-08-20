@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.review.FilterFragment">
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/custom_spinner"
+        android:dropDownVerticalOffset="34dp"
+        android:dropDownWidth="match_parent"
+        android:dropDownHeight="50dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_attr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/custom_spinner"
+        android:dropDownVerticalOffset="34dp"
+        android:dropDownWidth="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ListView
+        android:id="@+id/filter_listview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </ListView>
+
+</LinearLayout>

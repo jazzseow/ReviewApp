@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        />
+
+    <TextView
+        android:id="@+id/username_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/dateJoined_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joined since 6 Sep 2016"
+        android:layout_below="@id/username_TextView"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/review_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reviews"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/dateJoined_TextView"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/comments_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comments"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/review_TextView"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/numOfComments_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_toLeftOf="@id/comments_TextView"
+        android:layout_alignBaseline="@id/comments_TextView"
+        android:layout_margin="10sp"/>
+
+    <TextView
+        android:id="@+id/numOfReviews_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_toLeftOf="@id/comments_TextView"
+        android:layout_alignBaseline="@id/review_TextView"
+        android:layout_margin="10sp"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_below="@+id/comments_TextView"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/changeName_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:text="Change Username"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/colorPrimaryLight"/>
+
+    <Button
+        android:id="@+id/changePhoto_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/changeName_Button"
+        android:text="Change Profile Picture"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/colorPrimaryLight"/>
+
+    <Button
+        android:id="@+id/deleteReview_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/changePhoto_Button"
+        android:text="Delete all reviews"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/colorPrimaryLight"/>
+
+</RelativeLayout>

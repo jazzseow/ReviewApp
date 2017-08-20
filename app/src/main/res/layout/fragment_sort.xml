@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.review.SortFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.example.review.MyListView
+        android:id="@+id/listview_sort"
+        android:layout_width="match_parent"
+        android:choiceMode="singleChoice"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
